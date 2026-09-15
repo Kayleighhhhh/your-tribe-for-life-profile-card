@@ -38,7 +38,7 @@
 
         <p class="bio">
             currently learning Sveltekit, one small project at a time. I like
-            interfaces that feel instant and write up what breaks along the way.
+            to read about all new frontend techniques.
         </p>
 
         <ul class="stack">
@@ -50,9 +50,8 @@
         <footer>
             <p class="comment">// find me elsewhere</p>
             <nav class="links">
-                {#each links as link, i}
+                {#each links as link}
                     <a href={link.href}>{link.label}</a>
-                    {#if i < links.length - 1}<span class="sep">·</span>{/if}
                 {/each}
             </nav>
         </footer>
