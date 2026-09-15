@@ -17,7 +17,7 @@
     }
 
     body {
-        background-image: url('../src/lib/assets/bg.jpg');
+        background-image: url('./assets/bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
