@@ -1,4 +1,6 @@
 <script>
+    import kay from '$lib/assets/kay.jpg';
+
     let stack = ["Svelte", "HTML", "CSS", "NodeJs"];
 
     let links = [
@@ -31,7 +33,7 @@
         <section class="body">
             <article class="identity">
                 <picture>
-                    <img class="avatar" src="../src/lib/assets/kay.jpg" alt="kayleigh takening">
+                    <img class="avatar" src={kay} alt="kayleigh takening">
                 </picture>
                 <section>
                     <h1 class="name">Kayleigh van der Ham</h1>
