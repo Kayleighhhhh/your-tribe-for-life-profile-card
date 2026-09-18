@@ -20,9 +20,9 @@
     <article class="card">
         <header class="tab-bar">
             <p class="tab">+page.svelte</p>
-            <p class="status">Open to internships</p>
+            <!-- <p class="status">Open to internships</p> -->
         </header>
-        
+
         <section class="body">
             <article class="identity">
                 <picture>
