@@ -1,7 +1,7 @@
 <script>
     import kay from '$lib/assets/kay.jpg';
 
-    let stack = ["Svelte", "HTML", "CSS", "NodeJs"];
+    let stack = ["Sveltekit", "HTML", "CSS", "NodeJs"];
 
     let links = [
         { label: "GitHub", href: "https://github.com/Kayleighhhhh" },
